@@ -11,7 +11,7 @@ namespace Skillfactory
         static void Main(string[] args)
         {
             const string myName = "Vova";
-            Console.WriteLine(myName);
+            Console.WriteLine($"{myName}\n\tПривет, мир\n\tМне 27 лет\n\tMy name is\n {myName}");
             Console.ReadKey();
         }
     }
