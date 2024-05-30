@@ -10,11 +10,8 @@ namespace Skillfactory
     {
         static void Main(string[] args)
         {
-            string myName;
-            myName = "Vova";
-
+            const string myName = "Vova";
             Console.WriteLine(myName);
-
             Console.ReadKey();
         }
     }
